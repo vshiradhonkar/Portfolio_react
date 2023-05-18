@@ -12,7 +12,7 @@ function Navbar(props) {
         <a
         
           onClick={props.toggleMenu}
-          className={props.showMenu === 'active' ? 'menu-button active' : 'menu-button'}
+          className = {props.showMenu === 'active' ? 'menu-button active' : 'menu-button'}
         >
           <span />
         </a>
