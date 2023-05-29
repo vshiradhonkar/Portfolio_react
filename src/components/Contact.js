@@ -2,7 +2,7 @@ import React from "react";
 import SocialLinks from "./SocialLinks";
 import "../style/Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faCircle } from "@fortawesome/free-solid-svg-icons";
+import {  faCircle } from "@fortawesome/free-solid-svg-icons";
 function Contact() {
   return (
     <section id="contact">
