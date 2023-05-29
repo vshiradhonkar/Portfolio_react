@@ -1,6 +1,8 @@
 import React from "react";
 import SocialLinks from "./SocialLinks";
 import "../style/Contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faCircle } from "@fortawesome/free-solid-svg-icons";
 function Contact() {
   return (
     <section id="contact">
@@ -16,9 +18,10 @@ function Contact() {
               Please, use the form below or send an email to {""}
               <span className="mail">
                 shiradhonkar4
-                <i className="fas fa-at at" />
+                <span style={{ color: '#f300b4' }}>@</span>
+
                 gmail
-                <i className="fas fa-circle dot" />
+                <FontAwesomeIcon icon={faCircle} className="dot" />
                 com
               </span>
               :

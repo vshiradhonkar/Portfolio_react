@@ -17,6 +17,11 @@ function Menu(props) {
               ABOUT
             </a>
           </li>
+          <li>
+            <a href="#projects" onClick={props.toggleMenu}>
+              PORTFOLIO
+            </a>
+          </li>
           
           <li>
             <a href="#contact" onClick={props.toggleMenu}>

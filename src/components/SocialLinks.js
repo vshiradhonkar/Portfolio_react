@@ -1,7 +1,10 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function SocialLinks() {
   return (
+    
     <div className="social">
       <a
         href="https://twitter.com/07_onkar"
@@ -10,7 +13,8 @@ function SocialLinks() {
         title="Link to author's Twitter profile"
       >
         {' '}
-        <i className="fab fa-twitter" />
+        <FontAwesomeIcon icon={faTwitter} />
+
       </a>
       <a
         id="profile-link"
@@ -20,7 +24,8 @@ function SocialLinks() {
         title="Link to author's GitHub Profile"
       >
         {' '}
-        <i className="fab fa-github" />
+        <FontAwesomeIcon icon={faGithub} />
+
       </a>
       
     </div>

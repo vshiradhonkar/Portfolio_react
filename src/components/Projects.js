@@ -1,47 +1,7 @@
-import React from 'react';
+import React from "react";
+import Project from "./Project";
 
 const Projects = (props) => {
-  const Project = (props) => {
-    const tech = {
-        sass: 'fab fa-sass',
-        css: 'fab fa-css3-alt',
-        js: 'fab fa-js-square',
-        react: 'fab fa-react',
-        vue: 'fab fa-vuejs',
-        d3: 'fas fa-chart-bar',
-        node: 'fab fa-node-js',
-    };
-
-    const { title, img, tech: projectTech, link, repo } = props;
-
-    return (
-      <div className="project">
-        <a className="project-link" href={link} target="_blank" rel="noopener noreferrer">
-          <img className="project-image" src={img} alt={'Screenshot of ' + title} />
-        </a>
-        <div className="project-details">
-          <div className="project-tile">
-            <p className="icons">
-              {projectTech.split(' ').map((t) => (
-                <i className={tech[t]} key={t} />
-              ))}
-            </p>
-            {title}
-          </div>
-          {props.children}
-          <div className="buttons">
-            <a href={repo} target="_blank" rel="noopener noreferrer">
-              View source <i className="fas fa-external-link-alt" />
-            </a>
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              Try it Live <i className="fas fa-external-link-alt" />
-            </a>
-          </div>
-        </div>
-      </div>
-    );
-  };
-
   return (
     <section id="projects">
       <div className="projects-container">
@@ -49,43 +9,55 @@ const Projects = (props) => {
           <h3 className="title">My Works</h3>
           <p className="separator" />
           <p className="subtitle">
-            Here's a list of <u>most</u> of the projects I've been working on lately. All of these were built during my
-            CDAC adventure , where I've been coding for almost 7 months non-stop until I completed all the projects required to get my
-            Full-Stack Developer certification.
+            Here's a list of <u>most</u> of the projects I've been working on
+            lately. All of these were built during my CDAC adventure, where I've
+            been coding for almost 7 months non-stop until I completed all the
+            projects required to get my Full-Stack Developer certification.
           </p>
         </div>
         <div className="projects-wrapper">
           <Project
-            title="Login Page"
-            img="../images/Capture3.PNG"
+            title="Login Page."
+            img="https://raw.githubusercontent.com/07Onkar/My-Portfolio/777b5029a8672e5f98eba25479cdf3a120783f34/src/images/Capture3.png"
             tech="js css react node"
+            link="https://07onkar.github.io/Login-Page/"
+            repo="https://github.com/07Onkar/Login-Page"
+          >
+            <small>Built using HTML , CSS + BootStrap & Backend</small>
+            <p>
+              This is a Login Page having admin Login Panel with MonkeyChips as
+              a Backend.
+            </p>
+          </Project>
+
+          <Project
+            title="Calculator."
+            img="https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Capture4.png"
+            tech="js node css"
             link="https://07onkar.github.io/calculatorjs/"
-            repo="https://github.com/yagoestevez/anonymous-message-board"
+            repo="https://github.com/07Onkar/calculatorjs"
           >
-            <small>Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router.</small>
-            <p>This is a full-stack website that I made which lets the users read and post anonymous messages and replies.</p>
+            <small>Built using HTML , CSS + Bootstrap & Js.</small>
+            <p>
+              A website which is totally made for making Calculation's Easier
+              for Users.
+            </p>
           </Project>
 
           <Project
-            title="Stock Price Checker."
-            img="https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/StockPriceChecker.jpg"
+            title="Car Rental."
+            img="https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Capture2.png" //Got these Images by Opening the images in new tab after publishing it to github
             tech="js node css"
-            link="https://yagoestevez-stock-price-checker.glitch.me/"
-            repo="https://github.com/yagoestevez/fcc-stock-price-checker"
+            link="https://07onkar.github.io/carental-react/"
+            repo="https://github.com/07Onkar/carental-react"
           >
-            <small>Built using Node, Express, MongoDB, JS + jQuery + Axios, CSS + Bootstrap and Pug.</small>
-            <p>Another full-stack website to check the current value of any requested stock in the market.</p>
-          </Project>
-
-          <Project
-            title="Personal Library."
-            img="https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/PersonalLibrary.jpg"
-            tech="js node css"
-            link="https://yagoestevez-personal-library.glitch.me/"
-            repo="https://github.com/yagoestevez/fcc-personal-library"
-          >
-            <small>Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap and Pug.</small>
-            <p>A full-stack website to store book titles and comments to each book into a remote database.</p>
+            <small>
+              Built using Node, React , JS CSS + Bootstrap, and HashRouter.
+            </small>
+            <p>
+              Another Car Rental Website for users to book the Car for Rental
+              from Anywhere.
+            </p>
           </Project>
         </div>
       </div>

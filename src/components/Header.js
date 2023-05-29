@@ -9,7 +9,7 @@ function Header(props) {
       <div className="container">
         <h1>
           <span className="line">I do</span>
-          <span className="line">do Gaming</span>
+          <span className="line"> Gaming</span>
           <span className="line">
             <span className="color">&</span> code.
           </span>
