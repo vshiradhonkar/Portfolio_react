@@ -25,8 +25,7 @@ const Projects = (props) => {
           >
             <small>Built using HTML , CSS + BootStrap & Backend</small>
             <p>
-              This is a Login Page having admin Login Panel with MonkeyChips as
-              a Backend.
+              This is a Login Page having admin Login Panel.
             </p>
           </Project>
 
