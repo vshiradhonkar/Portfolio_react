@@ -5,8 +5,9 @@ import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 import "./App.css"
-import "./globalStyles.css"
+
 
 class App extends Component {
   
@@ -76,6 +77,7 @@ class App extends Component {
         <Nav toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
         <Header />
         <About />
+        <Projects/>
         <Contact />
         <Footer />
       </>
