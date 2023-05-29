@@ -24,9 +24,7 @@ const Projects = (props) => {
             repo="https://github.com/07Onkar/Login-Page"
           >
             <small>Built using HTML , CSS + BootStrap & Backend</small>
-            <p>
-              This is a Login Page having admin Login Panel.
-            </p>
+            <p>This is a Login Page having admin Login Panel.</p>
           </Project>
 
           <Project
