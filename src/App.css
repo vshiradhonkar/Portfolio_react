@@ -112,11 +112,11 @@ a:active {
 }
 
 .menu-container::before {
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true);
+  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Stars.svg?sanitize=true);
 }
 
 .menu-container::after {
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom repeat-x;
+  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Trees.svg?sanitize=true) bottom repeat-x;
 }
 
 .menu-container.deactive {
@@ -409,7 +409,7 @@ a:active {
 #welcome-section::before {
   content: '';
   position: fixed;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true);
+  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Stars.svg?sanitize=true);
   background-attachment: fixed;
   width: 100%;
   min-height: 100vh;
@@ -432,7 +432,7 @@ a:active {
   position: absolute;
   bottom: -300px;
   left: 0;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom left repeat-x;
+  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Trees.svg?sanitize=true) bottom left repeat-x;
   background-size: cover;
   width: 100%;
   height: 80%;
@@ -455,7 +455,7 @@ a:active {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Silhouette.svg?sanitize=true) bottom left no-repeat;
+  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Silhouette.svg?sanitize=true) bottom left no-repeat;
   width: 50%;
   height: 50%;
   opacity: 0;
@@ -477,7 +477,7 @@ a:active {
   top: 0;
   right: 0;
   position: fixed;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat;
+  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Moon.svg?sanitize=true) right 150% no-repeat;
   background-size: 40% 40%;
   background-attachment: fixed;
   width: 100%;
@@ -928,7 +928,7 @@ a:active {
  *****************/
 
 #contact {
-  background: #181d23 url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/envelope.svg?sanitize=true) no-repeat right;
+  background: #181d23 url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/envelope.svg?sanitize=true) no-repeat right;
   clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
   color: #fafafa;
   min-height: 100vh;
