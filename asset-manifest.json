@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio_react/static/css/main.3370a8f9.css",
+    "main.js": "/Portfolio_react/static/js/main.24b2d6ea.js",
+    "static/js/787.0f2faca1.chunk.js": "/Portfolio_react/static/js/787.0f2faca1.chunk.js",
+    "static/media/e-commerce.png": "/Portfolio_react/static/media/e-commerce.f5762a6964c79da61a07.png",
+    "static/media/car-rental.png": "/Portfolio_react/static/media/car-rental.80b5d39da7ebcccb282e.png",
+    "static/media/to-do-list.png": "/Portfolio_react/static/media/to-do-list.48daa0586da51c26eb95.png",
+    "index.html": "/Portfolio_react/index.html",
+    "main.3370a8f9.css.map": "/Portfolio_react/static/css/main.3370a8f9.css.map",
+    "main.24b2d6ea.js.map": "/Portfolio_react/static/js/main.24b2d6ea.js.map",
+    "787.0f2faca1.chunk.js.map": "/Portfolio_react/static/js/787.0f2faca1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3370a8f9.css",
+    "static/js/main.24b2d6ea.js"
+  ]
+}
