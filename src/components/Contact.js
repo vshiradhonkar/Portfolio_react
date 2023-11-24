@@ -1,8 +1,8 @@
 import React from "react";
 import SocialLinks from "./SocialLinks";
 import "../style/Contact.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faCircle } from "@fortawesome/free-solid-svg-icons";
+
+
 function Contact() {
   return (
     <section id="contact">
@@ -17,12 +17,7 @@ function Contact() {
             <p className="subtitle">
               Please, use the form below or send an email to {""}
               <span className="mail">
-                shiradhonkar4
-                <span style={{ color: '#f300b4' }}>@</span>
-
-                gmail
-                <FontAwesomeIcon icon={faCircle} className="dot" />
-                com
+              vedantshiradhonkar@gmail.com
               </span>
               :
             </p>

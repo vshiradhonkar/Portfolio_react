@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div className="wrapper">
         <h3>THANKS FOR VISITING</h3>
-        <p>© {new Date().getFullYear()} Onkar Shiradhonkar.</p>
+        <p>© {new Date().getFullYear()} Vedant Shiradhonkar.</p>
         <SocialLinks />
       </div>
     </footer>

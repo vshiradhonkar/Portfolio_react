@@ -1,52 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overlock&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="PortFolio Made by Vedant:)" />
+    <link rel="icon" href="%PUBLIC_URL%/briefcase.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>PortFolio</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Overlock&display=swap" rel="stylesheet">
-  <meta name="description" content="PortFolio Made by Onkar with ♥" />
-  <link rel="icon" href="%PUBLIC_URL%/briefcase.png" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <title>PortFolio</title>
-</head>
+  <body oncontextmenu="return false;">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      // disable right click
+      document.addEventListener("contextmenu", (event) =>
+        event.preventDefault()
+      );
 
-<body oncontextmenu="return false;">
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-  <script>
-    // disable right click
-    document.addEventListener('contextmenu', event => event.preventDefault());
- 
-    document.onkeydown = function (e) {
- 
+      document.onkeydown = function (e) {
         // disable F12 key
-        if(e.keyCode == 123) {
-            return false;
+        if (e.keyCode == 123) {
+          return false;
         }
- 
+
         // disable I key
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
-            return false;
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+          return false;
         }
- 
+
         // disable J key
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-            return false;
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+          return false;
         }
- 
+
         // disable U key
-        if(e.ctrlKey && e.keyCode == 85) {
-            return false;
+        if (e.ctrlKey && e.keyCode == 85) {
+          return false;
         }
-    }
- 
-</script>
-
-</body>
-
+      };
+    </script>
+  </body>
 </html>

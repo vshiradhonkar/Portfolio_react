@@ -7,7 +7,7 @@ function SocialLinks() {
     
     <div className="social">
       <a
-        href="https://twitter.com/07_onkar"
+        href="https://twitter.com/Tweetved1"
         target="_blank"
         rel="noopener noreferrer"
         title="Link to author's Twitter profile"
@@ -18,7 +18,7 @@ function SocialLinks() {
       </a>
       <a
         id="profile-link"
-        href="https://github.com/07Onkar"
+        href="https://github.com/vshiradhonkar"
         target="_blank"
         rel="noopener noreferrer"
         title="Link to author's GitHub Profile"
