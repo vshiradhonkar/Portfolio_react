@@ -1,5 +1,8 @@
 import React from "react";
 import Project from "./Project";
+import todolistImage from "../images/project images/to-do-list.png";
+import ecommerceImage from "../images/project images/e-commerce.png";
+import carRentalImage from "../images/project images/car-rental.png";
 
 const Projects = (props) => {
   return (
@@ -16,7 +19,7 @@ const Projects = (props) => {
         <div className="projects-wrapper">
           <Project
             title="Todo list Web Application"
-            img="https://raw.githubusercontent.com/07Onkar/My-Portfolio/777b5029a8672e5f98eba25479cdf3a120783f34/src/images/Capture3.png"
+            img={todolistImage}
             tech="React, js, css , Firebase"
             link="todolist-app1.web.app/"
             repo="https://github.com/vshiradhonkar/TodoListApp-react"
@@ -27,7 +30,7 @@ const Projects = (props) => {
 
           <Project
             title="E-commerce Web Application"
-            img="https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Capture4.png"
+            img={ecommerceImage}
             tech="React, js, css , Firebase, stripe"
             link="clone-248c0.firebaseapp.com/"
             repo="https://github.com/vshiradhonkar/Amazon-clone"
@@ -41,7 +44,7 @@ const Projects = (props) => {
 
           <Project
             title="CAR Rental Web Application"
-            img="https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Capture2.png" //Got these Images by Opening the images in new tab after publishing it to github
+            img={carRentalImage}
             tech="React, js, css , Firebase, EmailJS"
             link="vshiradhonkar.github.io/car-rental-app/"
             repo="https://github.com/vshiradhonkar/car-rental-app"
