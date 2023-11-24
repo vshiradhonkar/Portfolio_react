@@ -10,29 +10,27 @@ const Projects = (props) => {
           <p className="separator" />
           <p className="subtitle">
             Here's a list of <u>most</u> of the projects I've been working on
-            lately. All of these were built during my CDAC adventure, where I've
-            been coding for almost 7 months non-stop until I completed all the
-            projects required to get my Full-Stack Developer certification.
+            lately.
           </p>
         </div>
         <div className="projects-wrapper">
           <Project
-            title="Login Page."
+            title="Todo list Web Application"
             img="https://raw.githubusercontent.com/07Onkar/My-Portfolio/777b5029a8672e5f98eba25479cdf3a120783f34/src/images/Capture3.png"
-            tech="js css react node"
-            link="https://07onkar.github.io/Login-Page/"
-            repo="https://github.com/07Onkar/Login-Page"
+            tech="React, js, css , Firebase"
+            link="todolist-app1.web.app/"
+            repo="https://github.com/vshiradhonkar/TodoListApp-react"
           >
             <small>Built using HTML , CSS + BootStrap & Backend</small>
             <p>This is a Login Page having admin Login Panel.</p>
           </Project>
 
           <Project
-            title="Calculator."
+            title="E-commerce Web Application"
             img="https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Capture4.png"
-            tech="js node css"
-            link="https://07onkar.github.io/calculatorjs/"
-            repo="https://github.com/07Onkar/calculatorjs"
+            tech="React, js, css , Firebase, stripe"
+            link="clone-248c0.firebaseapp.com/"
+            repo="https://github.com/vshiradhonkar/Amazon-clone"
           >
             <small>Built using HTML , CSS + Bootstrap & Js.</small>
             <p>
@@ -42,14 +40,14 @@ const Projects = (props) => {
           </Project>
 
           <Project
-            title="Car Rental."
+            title="CAR Rental Web Application"
             img="https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Capture2.png" //Got these Images by Opening the images in new tab after publishing it to github
-            tech="js node css"
-            link="https://07onkar.github.io/carental-react/"
-            repo="https://github.com/07Onkar/carental-react"
+            tech="React, js, css , Firebase, EmailJS"
+            link="vshiradhonkar.github.io/car-rental-app/"
+            repo="https://github.com/vshiradhonkar/car-rental-app"
           >
             <small>
-              Built using Node, React , JS CSS + Bootstrap, and HashRouter.
+              Built using React , Firebase , EmailJS , JS , CSS, and HashRouter.
             </small>
             <p>
               Another Car Rental Website for users to book the Car for Rental
