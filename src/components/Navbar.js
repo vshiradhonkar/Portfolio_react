@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import "../style/Navbar.css"
 function Navbar(props) {

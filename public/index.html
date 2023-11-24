@@ -22,7 +22,7 @@
     <div id="root"></div>
     <script>
       // disable right click
-      document.addEventListener("contextmenu", (event) =>
+      {% comment %} document.addEventListener("contextmenu", (event) =>
         event.preventDefault()
       );
 
@@ -46,7 +46,7 @@
         if (e.ctrlKey && e.keyCode == 85) {
           return false;
         }
-      };
+      }; {% endcomment %}
     </script>
   </body>
 </html>

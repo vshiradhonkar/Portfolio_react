@@ -9,8 +9,9 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
-html, body {
+@import url("https://fonts.googleapis.com/css2?family=Urbanist&display=swap");
+html,
+body {
   height: 100%;
 }
 
@@ -18,10 +19,15 @@ body {
   color: #252934;
   background: #fafafa;
   font-size: 62.5%;
-  font-family: 'Urbanist', sans-serif;
+  font-family: "Urbanist", sans-serif;
   overflow-x: hidden;
 }
-
+.react_loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 a,
 a:visited {
   color: #252934;
@@ -35,15 +41,6 @@ a:active {
   color: #f300b4;
 }
 
-
-
-
-
-
-
-
-
-
 /*****************
  *****************
     MENU STYLES
@@ -55,8 +52,8 @@ a:active {
 .menu-container.active > .overlay {
   position: absolute;
   right: 0;
-  height: calc( 100vh - 120px );
-  width: calc( 100vw - 120px );
+  height: calc(100vh - 120px);
+  width: calc(100vw - 120px);
   background: #fafafa;
 }
 
@@ -66,7 +63,7 @@ a:active {
 
 @keyframes overlay-slide-in {
   from {
-    width: calc( 100vw - 120px );
+    width: calc(100vw - 120px);
   }
   to {
     width: 0;
@@ -84,7 +81,7 @@ a:active {
   }
   to {
     left: 0;
-    width: calc( 100vw - 120px );
+    width: calc(100vw - 120px);
   }
 }
 
@@ -104,7 +101,7 @@ a:active {
 
 .menu-container::before,
 .menu-container::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   min-height: 100vh;
@@ -116,7 +113,8 @@ a:active {
 }
 
 .menu-container::after {
-  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Trees.svg?sanitize=true) bottom repeat-x;
+  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Trees.svg?sanitize=true)
+    bottom repeat-x;
 }
 
 .menu-container.deactive {
@@ -195,34 +193,34 @@ a:active {
 
 /***** Menu Items: Hover Animation *****/
 .menu-container ul li {
-  border-left: .2rem solid transparent;
+  border-left: 0.2rem solid transparent;
   transition: border-left 200ms;
 }
 
 .menu-container ul li a {
-  font-size: 3rem; 
-  padding-left: .5rem;
+  font-size: 3rem;
+  padding-left: 0.5rem;
 }
 
 .menu-container ul li a::after {
-  content: ' »';
+  content: " »";
   font-size: 2.5rem;
   color: transparent;
   transition: color 200ms;
 }
 
 .menu-container ul li a:hover::after {
-  content: ' »';
+  content: " »";
   color: #f300b4;
 }
 
 .social {
-  padding: 1rem 0 0 .5rem;
+  padding: 1rem 0 0 0.5rem;
 }
 
 .social a {
   font-size: 1.5rem;
-  padding: .2rem;
+  padding: 0.2rem;
 }
 
 .menu-container a,
@@ -245,11 +243,11 @@ a:active {
     height: 100vh;
     width: 100vw;
   }
-  
+
   .menu-container.active > .overlay {
     animation: overlay-slide-in 300ms forwards 300ms;
   }
-  
+
   @keyframes overlay-slide-in {
     from {
       width: 100vw;
@@ -258,11 +256,11 @@ a:active {
       width: 0;
     }
   }
-  
+
   .menu-container > .overlay {
     animation: overlay-slide-out 300ms forwards;
   }
-  
+
   @keyframes overlay-slide-out {
     from {
       left: 0;
@@ -274,16 +272,6 @@ a:active {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 /*****************
  *****************
@@ -331,7 +319,7 @@ a:active {
 .menu-button span::before,
 .menu-button span::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 30px;
   height: 3px;
   background: #fafafa;
@@ -342,7 +330,7 @@ a:active {
   position: relative;
   display: block;
   top: 50%;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
 }
 
 .menu-button span::before {
@@ -359,16 +347,16 @@ a:active {
   background: #f300b4;
 }
 
-.menu-button.active > span  {
+.menu-button.active > span {
   background: transparent;
 }
 
-.menu-button.active > span::before  {
+.menu-button.active > span::before {
   transform: rotate(-225deg);
   top: 0px;
 }
 
-.menu-button.active > span::after  {
+.menu-button.active > span::after {
   transform: rotate(225deg);
   top: 0px;
 }
@@ -378,16 +366,6 @@ a:active {
     background: #181d23aa;
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 /*****************
  *****************
@@ -407,7 +385,7 @@ a:active {
 }
 
 #welcome-section::before {
-  content: '';
+  content: "";
   position: fixed;
   background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Stars.svg?sanitize=true);
   background-attachment: fixed;
@@ -432,7 +410,8 @@ a:active {
   position: absolute;
   bottom: -300px;
   left: 0;
-  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Trees.svg?sanitize=true) bottom left repeat-x;
+  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Trees.svg?sanitize=true)
+    bottom left repeat-x;
   background-size: cover;
   width: 100%;
   height: 80%;
@@ -455,7 +434,8 @@ a:active {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Silhouette.svg?sanitize=true) bottom left no-repeat;
+  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Silhouette.svg?sanitize=true)
+    bottom left no-repeat;
   width: 50%;
   height: 50%;
   opacity: 0;
@@ -477,7 +457,8 @@ a:active {
   top: 0;
   right: 0;
   position: fixed;
-  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Moon.svg?sanitize=true) right 150% no-repeat;
+  background: url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/Moon.svg?sanitize=true)
+    right 150% no-repeat;
   background-size: 40% 40%;
   background-attachment: fixed;
   width: 100%;
@@ -610,15 +591,6 @@ a:active {
   }
 }
 
-
-
-
-
-
-
-
-
-
 /*****************
  *****************
    ABOUT STYLES
@@ -722,15 +694,6 @@ a:active {
   }
 }
 
-
-
-
-
-
-
-
-
-
 /*****************
  *****************
   PROJECTS STYLES
@@ -742,7 +705,7 @@ a:active {
   font-size: 1.4rem;
   position: relative;
   background: #f0f0f0;
-  background: linear-gradient(215deg, #f0f0f0 0%,#fafafa 100%);
+  background: linear-gradient(215deg, #f0f0f0 0%, #fafafa 100%);
   margin-top: -10rem;
   z-index: 1;
 }
@@ -847,7 +810,7 @@ a:active {
 }
 
 #projects .project-details .icons i {
-  margin-right: .4rem;
+  margin-right: 0.4rem;
   font-weight: normal;
   font-size: 1.4rem;
 }
@@ -869,7 +832,7 @@ a:active {
 
 #projects .project-details .buttons a {
   width: 49%;
-  padding: .5rem;
+  padding: 0.5rem;
   border: none;
   border-bottom: 1px solid #f300b4;
   color: #252934;
@@ -883,11 +846,10 @@ a:active {
   color: #fafafa;
 }
 #projects .project-details .buttons i {
-  font-size: .8rem;
+  font-size: 0.8rem;
   vertical-align: middle;
-  margin-left: .5rem;;
+  margin-left: 0.5rem;
 }
-
 
 @media only screen and (max-width: 1149px) {
   #projects .project {
@@ -913,14 +875,6 @@ a:active {
   }
 }
 
-
-
-
-
-
-
-
-
 /*****************
  *****************
    CONTACT STYLES
@@ -928,7 +882,9 @@ a:active {
  *****************/
 
 #contact {
-  background: #181d23 url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/envelope.svg?sanitize=true) no-repeat right;
+  background: #181d23
+    url(https://raw.githubusercontent.com/07Onkar/My-Portfolio/master/src/images/envelope.svg?sanitize=true)
+    no-repeat right;
   clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
   color: #fafafa;
   min-height: 100vh;
@@ -981,10 +937,11 @@ a:active {
   margin-top: 1rem;
 }
 
-input, textarea {
+input,
+textarea {
   border: none;
   padding: 1rem;
-  font-family: 'Overlock', Arial, Helvetica, sans-serif;
+  font-family: "Overlock", Arial, Helvetica, sans-serif;
   width: 100%;
   height: 40%;
   transition: 200ms;
@@ -1036,12 +993,12 @@ input[type="submit"]:focus {
   font-style: italic;
 }
 
-.mail .at, .mail .dot {
-  font-size: .9rem;
-  margin: 0 .1rem;
+.mail .at,
+.mail .dot {
+  font-size: 0.9rem;
+  margin: 0 0.1rem;
   color: #f300b4;
 }
-
 
 @media only screen and (max-width: 1149px) {
   #contact .social a {
@@ -1055,15 +1012,6 @@ input[type="submit"]:focus {
     padding: 0;
   }
 }
-
-
-
-
-
-
-
-
-
 
 /*****************
  *****************
@@ -1099,6 +1047,6 @@ footer .wrapper {
   }
 
   footer .wrapper h3 {
-    padding-bottom: .8rem;
+    padding-bottom: 0.8rem;
   }
 }

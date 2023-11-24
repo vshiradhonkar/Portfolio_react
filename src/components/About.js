@@ -16,10 +16,9 @@ function About() {
               Maharashtra.
             </p>
             <p>
-              I really enjoy solving the problems as well as making things
-              prettier and easy to use. I can't Stop Learning new things; the
-              more, the Better :) I also Love Gaming , a hobby I'm taking along
-              since Childhood.
+              I really enjoy solving problems as well as making things
+              prettier and easy to use. I can't stop learning new things; the
+              more, the better :) I also love gaming, a hobby I've been passionate about since childhood.
             </p>
           </div>
           <div className="title">
@@ -29,26 +28,22 @@ function About() {
           <div className="desc">
             <h4 className="subtitle">I'm a programmer.</h4>
             <p>
-            For the Front-end I usually work with JavaScript, either
-              standalone or including Popular Frameworks like Nextjs. I also make the web pretty using CSS and whenever needed,
-              any of their friends: Bootstraps ,etc.
+            For the front-end, I usually work with JavaScript, either
+              standalone or including popular libraries like ReactJs. I also make the web visually appealing using CSS, and when needed,
+              any of its friends like Bootstrap, etc.
             </p>
             <p>
             For the Back-end I also work with JavaScript (NodeJS , Express,
-              etc) But Ofcourse, whenever the project Require SQL , I
+              etc) And Firebase sometimes But of course, whenever the project Require SQL , I
               do mySQL , etc.
             </p>
           </div>
           <div className="desc">
-            <h4 className="subtitle">Also a Gamer.</h4>
+            <h4 className="subtitle">Also a</h4>
             <p>
-            I Play and Build the games alot , I feel comfortable in developing
-              games improving them , I Love working with Them.
-            </p>
-            <p>
-            User interfaces, brochures, books, branding... You name it! As I
-              mentioned, creating pretty things is particularly important for
-              me. me.
+            I'm a dynamic tech enthusiast on a perpetual learning journey. I thrive in the realm of games, where creativity meets problem-solving.
+            Beyond coding, I immerse myself in a world of diverse interests – from voracious reading and show-watching to exploring the depths of YouTube. 
+            I even dabble in cooking! This eclectic mix fuels my well-rounded skills and an unyielding passion for innovation in every facet of my life.
             </p>
           </div>
         </article>

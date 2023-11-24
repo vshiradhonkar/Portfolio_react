@@ -9,52 +9,56 @@ const Projects = (props) => {
     <section id="projects">
       <div className="projects-container">
         <div className="heading">
-          <h3 className="title">My Works</h3>
+          <h3 className="title">My Portfolio</h3>
           <p className="separator" />
           <p className="subtitle">
-            Here's a list of <u>most</u> of the projects I've been working on
-            lately.
+            Explore some of my recent projects that showcase my skills and
+            passion for creating innovative solutions.
           </p>
         </div>
         <div className="projects-wrapper">
           <Project
-            title="Todo list Web Application"
+            title="TaskMate - Todo List App"
             img={todolistImage}
-            tech="React, js, css , Firebase"
-            link="todolist-app1.web.app/"
+            tech="React, JavaScript, CSS, Firebase"
+            link="https://todolist-app1.web.app/"
             repo="https://github.com/vshiradhonkar/TodoListApp-react"
           >
-            <small>Built using HTML , CSS + BootStrap & Backend</small>
-            <p>This is a Login Page having admin Login Panel.</p>
-          </Project>
-
-          <Project
-            title="E-commerce Web Application"
-            img={ecommerceImage}
-            tech="React, js, css , Firebase, stripe"
-            link="clone-248c0.firebaseapp.com/"
-            repo="https://github.com/vshiradhonkar/Amazon-clone"
-          >
-            <small>Built using HTML , CSS + Bootstrap & Js.</small>
+            <small>Built with HTML, CSS, Bootstrap, and Firebase for backend.</small>
             <p>
-              A website which is totally made for making Calculation's Easier
-              for Users.
+              This is a feature-rich Todo List app with user authentication,
+              providing a seamless experience for managing tasks.
             </p>
           </Project>
 
           <Project
-            title="CAR Rental Web Application"
+            title="E-Shop - E-commerce Platform"
+            img={ecommerceImage}
+            tech="React, JavaScript, CSS, Firebase, Stripe"
+            link="https://clone-248c0.firebaseapp.com/"
+            repo="https://github.com/vshiradhonkar/Amazon-clone"
+          >
+            <small>Developed using HTML, CSS, Bootstrap, and JavaScript.</small>
+            <p>
+              This is an interactive e-commerce platform that leverages Stripe
+              for secure and efficient payment processing.
+            </p>
+          </Project>
+
+          <Project
+            title="CarGo - Car Rental App"
             img={carRentalImage}
-            tech="React, js, css , Firebase, EmailJS"
-            link="vshiradhonkar.github.io/car-rental-app/"
+            tech="React, JavaScript, CSS, Firebase, EmailJS"
+            link="https://vshiradhonkar.github.io/car-rental-app/"
             repo="https://github.com/vshiradhonkar/car-rental-app"
           >
             <small>
-              Built using React , Firebase , EmailJS , JS , CSS, and HashRouter.
+              Crafted with React, Firebase, EmailJS, JavaScript, CSS, and
+              HashRouter.
             </small>
             <p>
-              Another Car Rental Website for users to book the Car for Rental
-              from Anywhere.
+              CAR Rental is a user-friendly Car Rental app, offering convenient
+              booking options for users.
             </p>
           </Project>
         </div>
